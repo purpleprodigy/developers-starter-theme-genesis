@@ -1,0 +1,51 @@
+//
+// Color Variables
+//======================================
+
+// Base
+$white: #fff;
+$black: #000;
+
+$base-color: #333;
+
+$link-color: #c3251d;
+$link-hoverColor: #333;
+
+$body-backgroundColor: #eee;
+
+// Header
+$siteTitle-linkColor: #333;
+$siteHeader-backgroundColor: $white;
+
+// Navigation
+$nav-linkColor: #333;
+$nav-hoverColor: #c3251d;
+
+$submenu-borderColor: #eee;
+$submenu-linkBackgroundColor: $white;
+
+$primaryNav-backgroundColor: $white;
+$primaryNav-borderColor: #eee;
+$primaryNav-linkColor: $nav-linkColor;
+
+$secondaryNav-backgroundColor: $white;
+$secondaryNav-borderColor: #eee;
+$secondaryNav-linkColor: $nav-linkColor;
+
+$jsNav-backgroundColor: $white;
+$jsNav-hoverColor: $black;
+$jsNav-focusColor: #c3251d;
+
+$navToggle-backgroundColor: $white;
+$navToggle-color: #333;
+
+$archivePagination-backgroundColor: $white;
+$archivePagination-color: #333;
+$archivePagination-hoverBackgroundColor: #c3251d;
+$archivePagination-hoverColor: $white;
+
+// Footer
+$siteFooter-backgroundColor: $white;
+$siteFooter-borderColor: #eee;
+$footerWidgets-backgroundColor: $white;
+

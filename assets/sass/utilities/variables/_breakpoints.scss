@@ -1,0 +1,23 @@
+//
+// Breakpoints
+//======================================
+
+$large-desktop: rem(1680);
+$desktop: rem(1366);
+$laptop: rem(1200);
+$tablet-landscape: rem(1024);
+$wp-admin-bar: rem(783);
+$tablet-portrait: rem(768);
+$phone-landscape: rem(640);
+$phone-portrait: rem(360);
+
+// Global Screen Sizes
+// $max-width = 1140
+//------------------------------------------------------------------------------
+$huge-screen: $max-width + 460px; // 1600px
+$larger-screen: $max-width + 200px; // 1340px
+$large-screen: $max-width + 40px; // 1180px
+$medium-screen: $max-width - 117px; // 1023px
+$small-screen: $max-width - 380px; // 760px;
+$smaller-screen: $max-width - 660px; // 480px;
+$smallest-screen: $max-width - 820px; // 320px;
