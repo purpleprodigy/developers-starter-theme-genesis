@@ -1,10 +1,10 @@
-/* ## Genesis
---------------------------------------------- */
+//
+// Genesis
+//======================================
 
 .breadcrumb {
-  background-color: #fff;
-  font-size: 16px;
-  font-size: 1.6rem;
+  background-color: $breadcrumb-backgroundColor;
+  font-size: rem( $breadcrumb-fontSize );
   margin-bottom: 1px;
   padding: 12px 30px;
 }
@@ -12,9 +12,8 @@
 .after-entry,
 .archive-description,
 .author-box {
-  background-color: #fff;
-  font-size: 18px;
-  font-size: 1.8rem;
+  background-color: $genesisElements-backgroundColor;
+  font-size: rem( $genesisElements-fontSize );
   margin-bottom: 40px;
   padding: 60px;
 }
