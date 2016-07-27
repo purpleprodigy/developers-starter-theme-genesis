@@ -6,7 +6,7 @@
   font-size: rem($widgetTitle-fontSize);
   margin-bottom: 20px;
   .sidebar & a {
-    color: $widgetTitle-color;
+    color: $sidebarWidgetTitle-color;
     text-decoration: none;
   }
 }

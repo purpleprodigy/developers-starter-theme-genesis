@@ -3,7 +3,7 @@
 //======================================
 
 // Base
-$white: #fff;
+$white: $white;
 $black: #000;
 
 $base-color: #333;
@@ -44,16 +44,11 @@ $archivePagination-color: #333;
 $archivePagination-hoverBackgroundColor: #c3251d;
 $archivePagination-hoverColor: $white;
 
-// Footer
-$siteFooter-backgroundColor: $white;
-$siteFooter-borderColor: #eee;
-$footerWidgets-backgroundColor: $white;
-
 // Entry
 $entryTitle-linkColor: #333;
 $entryTitle-hoverColor: #c3251d;
 
-$entry-backgroundColor: #fff;
+$entry-backgroundColor: $white;
 
 $entryFooterMeta-borderColor: #eee;
 
@@ -61,12 +56,27 @@ $entryCode-backgroundColor: #333;
 $entryCode-borderColor: #eee;
 
 // Sidebar
-$widgetTitle-color: #333;
-$sidebarWidget-backgroundColor: #fff;
+$sidebarWidgetTitle-color: #333;
+$sidebarWidget-backgroundColor: $white;
+
+
+// Plugins
+$enews-color: $white;
+$enews-backgroundColor: #333;
+$enewsInput-borderColor: #333;
+$enewsButton-backgroundColor: #c3251d;
+$enewsButton-color: $white;
+$enewsButtonHover-backgroundColor: $white;
+$enewsButtonHover-color: #333;
+
+// Footer
+$siteFooter-backgroundColor: $white;
+$siteFooter-borderColor: #eee;
+$footerWidgets-backgroundColor: $white;
 
 // Genesis
-$breadcrumb-backgroundColor: #fff;
-$genesisElements-backgroundColor: #fff;
+$breadcrumb-backgroundColor: $white;
+$genesisElements-backgroundColor: $white;
 
 //Comments
-$comments-backgroundColor: #fff;
+$comments-backgroundColor: $white;
