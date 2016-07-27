@@ -101,8 +101,7 @@
 
     .after-entry,
     .archive-description,
-    .author-box,
-    .sidebar .widget {
+    .author-box {
         padding: 30px;
         margin-bottom: 5%;
     }

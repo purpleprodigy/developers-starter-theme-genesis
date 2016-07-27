@@ -1,9 +1,12 @@
+//
+// Sidebar
+//======================================
+
 .sidebar {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: rem( $sidebar-fontSize );
   margin-bottom: 40px;
   .widget {
-    background-color: #fff;
+    background-color: $sidebarWidget-backgroundColor;
     padding: 40px;
   }
 }
