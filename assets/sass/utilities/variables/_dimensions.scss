@@ -2,6 +2,31 @@
 // Dimension Variables
 //======================================
 
+$baseWidth: 1280;
+$gutter: 40px;
+
+//Max Widths
+$maxWidth: $baseWidth + px;
+$maxWidth-largerScreen: 1140px;
+$maxWidth-largeScreen: 960px;
+$maxWidth-mediumScreen: 800px;
+$maxWidth-landingPage: 800px;
+
+// Content Widths
+$content-width: $baseWidth * 0.6875 + px;
+$contentBothSidebars-width: 660px;
+$content-width-largerScreen: 800px;
+$content-width-largeScreen: 620px;
+$contentBothSidebars-width-largerScreen: 580px;
+$contentBothSidebars-width-largeScreen: 400px;
+$contentSidebarWrap-width: 1060px;
+$contentSidebarWrap-width-largerScreen: 920px;
+$contentSidebarWrap-width-largeScreen: 740px;
+
+$primarySidebar-width: $baseWidth * 0.28125 + px;
+$primarySidebar-width-largerScreen: 300px;
+
+$secondarySidebar-width: 180px;
 
 // Header
 $titleArea-width: 300px;
