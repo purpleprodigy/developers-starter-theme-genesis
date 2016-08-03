@@ -13,6 +13,27 @@ $link-hoverColor: #333;
 
 $body-backgroundColor: #eee;
 
+// Elements
+$hr-borderTop: #eee;
+
+// Form Elements
+$input-backgroundColor: $white;
+$input-borderColor: #ddd;
+$input-color: #333;
+$inputFocus-borderColor: #999;
+
+// Buttons
+$button-backgroundColor: #333;
+$button-backgroundHoverColor: #c3251d;
+$button-color: $white;
+$button-hoverColor: $white;
+$button-disabledBackgroundColor: #eee;
+$button-disabledColor: #777;
+
+// Tables
+$tableBody-borderColor: #eee;
+$tableCell-borderColor: #eee;
+
 // Header
 $siteTitle-linkColor: #333;
 $siteHeader-backgroundColor: $white;
@@ -55,10 +76,9 @@ $entryFooterMeta-borderColor: #eee;
 $entryCode-backgroundColor: #333;
 $entryCode-borderColor: #eee;
 
-// Sidebar
+// Widgets
 $sidebarWidgetTitle-color: #333;
 $sidebarWidget-backgroundColor: $white;
-
 
 // Plugins
 $enews-color: $white;
@@ -74,9 +94,15 @@ $siteFooter-backgroundColor: $white;
 $siteFooter-borderColor: #eee;
 $footerWidgets-backgroundColor: $white;
 
-// Genesis
-$breadcrumb-backgroundColor: $white;
-$genesisElements-backgroundColor: $white;
-
-//Comments
+// Comments
 $comments-backgroundColor: $white;
+
+// General Components
+$breadcrumb-backgroundColor: $white;
+$authorBox-backgroundColor: $white;
+$afterEntry-backgroundColor: $white;
+$archiveDescription-backgroundColor: $white;
+
+// Gallery
+$gallery-borderColor: #eee;
+$gallery-borderHoverColor: #999;

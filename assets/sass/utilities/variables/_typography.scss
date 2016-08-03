@@ -2,6 +2,33 @@
 // Typography Variables
 //======================================
 
+// Common Fonts
+$fontFamily-sourcesans: 'Source Sans Pro', sans-serif;
+$fontFamily-muli: 'Muli', sans-serif;
+$fontFamily-lato: Lato, sans-serif;
+$fontFamily-helvetica: Helvetica, arial, sans-serif;
+$fontFamily-opensans: 'Open Sans', Helvetica, Arial, sans-serif;
+$fontFamily-serif: Georgia, Times, serif;
+
+// Base
+$html-fontSize: 62.5%;
+$base-fontFamily: $fontFamily-sourcesans;
+$base-fontSize: 20;
+$base-fontSize-smallScreen: 18px;
+$baseDiv-fontSize: 2rem;
+$baseDiv-fontSize-smallScreen: 1.8rem;
+$base-lineHeight: 1.625;
+
+// Headings
+$headingsFontFamily: $fontFamily-sourcesans;
+$headings-lineHeight: 1.2;
+$h1-fontSize: 36;
+$h2-fontSize: 30;
+$h3-fontSize: 24;
+$h4-fontSize: 20;
+$h5-fontSize: 18;
+$h6-fontSize: 16;
+
 // Navigation
 $nav-fontSize: 16;
 $submenu-fontSize: 14;
@@ -11,7 +38,6 @@ $archivePagination-fontSize: 16;
 // Header
 $siteTitle-fontSize: 30;
 $siteDescription-fontSize: 16;
-
 
 // Footer
 $siteFooter-fontSize: 16;
@@ -24,9 +50,12 @@ $entryMeta-fontSize: 16;
 $entryMeta-header-fontSize: 16;
 $entryMeta-footer-fontSize: 16;
 
-$archiveAuthorTitles-fontSize: 20;
+// Elements
+$blockquote-fontSize: 30;
+$input-fontSize: 18;
+$button-fontSize: 16;
 
-// Sidebar
+// Widgets
 $widgetTitle-fontSize: 18;
 $sidebar-fontSize: 16;
 
@@ -34,9 +63,19 @@ $sidebar-fontSize: 16;
 $featuredContentEntryTitle-fontSize: 20;
 $enewsWidgetInput-fontSize: 16;
 
-// Genesis
-$breadcrumb-fontSize: 16;
-$genesisElements-fontSize: 18;
-
 // Comments
 $comments-fontSize: 16;
+
+// General Components
+$breadcrumb-fontSize: 16;
+
+$authorBoxTitle-fontSize: 20;
+$authorBox-fontSize: 18;
+
+$afterEntry-fontSize: 18;
+
+$archiveTitle-fontSize: 20;
+$archiveDescription-fontSize: 18;
+
+$caption-fontSize: 14;
+

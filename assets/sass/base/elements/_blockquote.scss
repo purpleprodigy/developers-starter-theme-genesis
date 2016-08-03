@@ -12,8 +12,7 @@ blockquote {
 blockquote::before {
   content: "\201C";
   display: block;
-  font-size: 30px;
-  font-size: 3rem;
+  font-size: rem( $blockquote-fontSize );
   height: 0;
   left: -20px;
   position: relative;

@@ -13,36 +13,3 @@
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Text Domain: developers
 */
-
-
-/* # Media Queries
----------------------------------------------------------------------------------------------------- */
-
-
-@media only screen and (max-width: 860px) {
-
-    body > div {
-        font-size: 1.8rem;
-    }
-
-    body {
-        font-size: 18px;
-        font-size: 1.8rem;
-    }
-
-    .wrap {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .after-entry,
-    .archive-description,
-    .author-box {
-        padding: 30px;
-        margin-bottom: 5%;
-    }
-
-
-}
-
-

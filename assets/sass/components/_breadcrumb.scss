@@ -1,0 +1,10 @@
+//
+// Breadcrumb
+//======================================
+
+.breadcrumb {
+  background-color: $breadcrumb-backgroundColor;
+  font-size: rem( $breadcrumb-fontSize );
+  margin-bottom: 1px;
+  padding: 12px 30px;
+}
