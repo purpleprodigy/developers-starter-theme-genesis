@@ -2,7 +2,7 @@
 // .js enabled styles
 //======================================
 
-@media only screen and (max-width: 1023px) {
+  @include media( $breakpoint__screen-size--medium ) {
   .js {
     .genesis-nav-menu {
       .sub-menu, .sub-menu a {
@@ -68,17 +68,17 @@
     .nav-primary,
     nav button:focus,
     .menu-toggle:focus {
-      background-color: $jsNav-backgroundColor;
+      background-color: $js-nav--background-color;
 
     }
     nav button:hover,
     .menu-toggle:hover,
     .nav-primary {
-      color: $jsNav-hoverColor;
+      color: $js-nav--hover-color;
     }
     nav button:focus,
     .menu-toggle:focus {
-      color: $jsNav-focusColor;
+      color: $js-nav--focus-color;
     }
   }
   nav.pagination {

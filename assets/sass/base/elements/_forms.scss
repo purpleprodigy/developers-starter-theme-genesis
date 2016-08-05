@@ -4,10 +4,10 @@
 input,
 select,
 textarea {
-  background-color: $input-backgroundColor;
-  border: 1px solid $input-borderColor;
-  color: $input-color;
-  font-size: rem($input-fontSize);
+  background-color: $input--background-color;
+  border: 1px solid $input--border-color;
+  color: $input--color;
+  font-size: rem($input--font-size);
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -15,7 +15,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid $inputFocus-borderColor;
+  border: 1px solid $input--focus-border-color;
   outline: none;
 }
 
@@ -26,10 +26,10 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-  color: $input-color;
+  color: $input--color;
   opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-  color: $input-color;
+  color: $input--color;
 }

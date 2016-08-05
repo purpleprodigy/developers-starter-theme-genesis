@@ -1,11 +1,8 @@
 //
 // Breakpoints
-// maxWidth = 1280
 //------------------------------------------------------------------------------
-$smallest-screen: 320px;
-$smaller-screen: 480px;
-$small-screen: 860px;
-$medium-screen: 1023px;
-$large-screen: 1200px;
-$larger-screen: 1340px;
-$huge-screen: 1600px;
+
+$breakpoint__screen-size--larger: new-breakpoint(max-width $screen-size--larger 12);
+$breakpoint__screen-size--large: new-breakpoint(max-width $screen-size--large 12);
+$breakpoint__$screen-size--medium: new-breakpoint(max-width $screen-size--medium 6);
+$breakpoint__$screen-size--small: new-breakpoint(max-width $screen-size--small 4);

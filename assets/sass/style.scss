@@ -14,16 +14,9 @@
 	Text Domain: developers
 */
 
+@import "utilities/index";
 @import "base/index";
 @import "layouts/index";
-@import "components/widgets/index";
-@import "components/accessibility/index";
-// after entry???
-@import "components/header/index";
-@import "components/navigation/index";
-@import "components/content/index";
-@import "components/comments/index";
-@import "components/sidebar/index";
-@import "components/footer/index";
+@import "components/index";
 @import "plugins/index";
 @import "views/index";

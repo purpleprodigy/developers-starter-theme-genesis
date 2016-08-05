@@ -4,7 +4,7 @@
 .pagination {
   clear: both;
   margin: 40px 0;
-  @media only screen and (max-width: 860px) {
+    @include media( $breakpoint__screen-size--small ) {
     .pagination {
       margin: 5% auto;
     }
@@ -19,7 +19,7 @@
   li {
     display: inline;
 
-    @media only screen and (max-width: 860px) {
+      @include media( $breakpoint__screen-size--small ) {
       a {
         margin-bottom: 4px;
       }
@@ -27,19 +27,19 @@
   }
 
   a {
-    background-color: $archivePagination-backgroundColor;
-    color: $archivePagination-color;
+    background-color: $archive-pagination--background-color;
+    color: $archive-pagination-color;
     cursor: pointer;
     display: inline-block;
-    font-size: rem($archivePagination-fontSize);
+    font-size: rem($archive-pagination--font-size);
     font-weight: 600;
     padding: 8px 12px;
     text-decoration: none;
     &:hover,
     &:focus,
     .active & {
-      background-color: $archivePagination-hoverBackgroundColor;
-      color: $archivePagination-hoverColor;
+      background-color: $archive-pagination-hoverBackgroundColor;
+      color: $archive-pagination--hover-color;
     }
   }
 }

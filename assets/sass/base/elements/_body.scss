@@ -3,29 +3,29 @@
 //======================================
 
 html {
-  font-size: $html-fontSize; /* 10px browser default */
+  font-size: $html--font-size; /* 10px browser default */
 }
 
 body {
-  background-color: $body-backgroundColor;
+  background-color: $body--background-color;
   color: $base-color;
-  font-family: $base-fontFamily;
-  font-size: rem( $base-fontSize );
+  font-family: $base--font-family;
+  font-size: rem( $base--font-size );
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
-  line-height: $base-lineHeight;
+  line-height: $base--line-height;
   margin: 0;
 
-  @media only screen and (max-width: $small-screen) {
-    font-size: $base-fontSize-smallScreen;
+  @include media( $breakpoint__screen-size--small ) {
+    font-size: $base--font-size--small-screen;
   }
 
   /* Chrome fix */
   > div {
-    font-size: $baseDiv-fontSize-smallScreen;
+    font-size: $base__div--font-size--small-screen;
 
-    @media only screen and (max-width: $small-screen) {
-      font-size: $baseDiv-fontSize-smallScreen;
+    @include media( $breakpoint__screen-size--small ) {
+      font-size: $base__div--font-size--small-screen;
     }
   }
 }

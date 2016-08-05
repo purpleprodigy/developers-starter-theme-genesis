@@ -5,14 +5,13 @@
 .site-header .widget-area {
   float: right;
   text-align: right;
-  width: $headerRight-width-hugeScreen;
+  width: $header-right--width;
 
-    @media only screen and (max-width: 1200px) {
-      width: $headerRight-width-largeScreen ;
-    }
-    @media only screen and (max-width: 1023px) {
-      width: 100%;
-      text-align: center;
-    }
+  @include media($breakpoint__screen-size--large) {
+    width: $header-right--width--large-screen;
+  }
+  @include media($breakpoint__screen-size--medium) {
+    width: 100%;
+    text-align: center;
   }
 }

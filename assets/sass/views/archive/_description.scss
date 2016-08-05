@@ -3,12 +3,12 @@
 //======================================
 
 .archive-description {
-  background-color: $archiveDescription-backgroundColor;
-  font-size: rem( $archiveDescription-fontSize );
+  background-color: $archive-description--background-color;
+  font-size: rem( $archive-description--font-size );
   margin-bottom: 40px;
   padding: 60px;
 
-  @media only screen and (max-width: $small-screen) {
+  @include media( $breakpoint__screen-size--small ) {
     padding: 30px;
     margin-bottom: 5%;
   }

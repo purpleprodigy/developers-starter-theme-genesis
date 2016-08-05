@@ -12,7 +12,7 @@ table {
 }
 
 tbody {
-  border-bottom: 1px solid $tableBody-borderColor;
+  border-bottom: 1px solid $table-body--border-color;
 }
 
 td,
@@ -21,7 +21,7 @@ th {
 }
 
 td {
-  border-top: 1px solid $tableCell-borderColor;
+  border-top: 1px solid $table-cell--border-color;
   padding: 6px;
 }
 

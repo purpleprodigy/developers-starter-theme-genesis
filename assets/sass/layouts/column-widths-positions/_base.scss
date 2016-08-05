@@ -2,7 +2,7 @@
 // Column Width Positions Base
 //======================================
 
-@media only screen and (max-width: 1023px) {
+  @include media( $breakpoint__screen-size--medium ) {
   .content,
   .content-sidebar-sidebar .content,
   .content-sidebar-sidebar .content-sidebar-wrap,

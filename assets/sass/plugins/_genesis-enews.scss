@@ -3,31 +3,32 @@
 //======================================
 
 .sidebar .enews-widget {
-  background-color: $enews-backgroundColor;
+  background-color: $enews--background-color;
 
-    &, .widget-title {
-      color: $enews-color;
-    }
+  &, .widget-title {
+    color: $enews--color;
   }
+}
 
-  input,
-  input:focus {
-    border: 1px solid $enewsInput-borderColor;
-  }
-  input[type="submit"] {
-    background-color: $enewsButton-backgroundColor;
-    color:$enewsButton-color;
-  }
-  input:hover[type="submit"],
-  input:focus[type="submit"] {
-    background-color: $enewsButtonHover-backgroundColor;
-    color: $enewsButtonHover-color;
-  }
+input,
+input:focus {
+  border: 1px solid $enews__input--border-color;
+}
+
+input[type="submit"] {
+  background-color: $enews__submit-button--background-color;
+  color: $enews__submit-button-color;
+}
+
+input:hover[type="submit"],
+input:focus[type="submit"] {
+  background-color: $enews__submit-button--hover-background-color;
+  color: $enews__submit-button--hover-color;
 }
 
 .enews-widget {
   input {
-    font-size: rem( $enewsInput-fontSize );
+    font-size: rem($enews__input--font-size);
     margin-bottom: 16px;
 
     &[type="submit"] {

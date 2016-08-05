@@ -21,7 +21,7 @@ a {
 
 a:hover,
 a:focus {
-  color: $link-hoverColor ;
+  color: $link--hover-color ;
   text-decoration: none;
 }
 
@@ -30,12 +30,10 @@ p {
   padding: 0;
 }
 
-
-
 hr {
   border: 0;
   border-collapse: collapse;
-  border-top: 1px solid $hr-borderTop;
+  border-top: 1px solid $hr--border-color;
   clear: both;
   margin: 1em 0;
 }
@@ -44,4 +42,3 @@ b,
 strong {
   font-weight: 700;
 }
-

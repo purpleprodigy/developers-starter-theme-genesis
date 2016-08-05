@@ -4,25 +4,25 @@
 
 .content {
   float: right;
-  width: $content-width;
+  width: $content--width;
 
-  @media only screen and (max-width: $larger-screen) {
-    width: $content-width-largerScreen;
+  @include media( $breakpoint__screen-size--larger ) {
+    width: $content--width--larger-screen;
 
   }
-  @media only screen and (max-width: $large-screen) {
-    width: $content-width-largeScreen;
+  @include media( $breakpoint__screen-size--large ) {
+    width: $content--width--large-screen;
   }
 
   .content-sidebar-sidebar &,
   .sidebar-content-sidebar &,
   .sidebar-sidebar-content & {
-    width: $contentBothSidebars-width;
-    @media only screen and (max-width: $larger-screen) {
-      width: $contentBothSidebars-width-largerScreen;
+    width: $content-both-sidebars--width;
+    @include media( $breakpoint__screen-size--larger ) {
+      width: $content-both-sidebars--width--larger-screen;
     }
-    @media only screen and (max-width: $large-screen) {
-      width: $contentBothSidebars-width-largeScreen;
+    @include media( $breakpoint__screen-size--large ) {
+      width: $content-both-sidebars--width--large-screen;
     }
   }
 

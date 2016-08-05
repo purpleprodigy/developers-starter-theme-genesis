@@ -60,12 +60,12 @@
 }
 
 .gallery img {
-  border: 1px solid $gallery-borderColor;
+  border: 1px solid $gallery--border-color;
   height: auto;
   padding: 4px;
 
   &:hover,
   &:focus {
-    border: 1px solid $gallery-borderHoverColor;
+    border: 1px solid $gallery--hover-border-color;
   }
 }
