@@ -28,7 +28,7 @@ input:focus[type="submit"] {
 
 .enews-widget {
   input {
-    font-size: rem($enews__input--font-size);
+    @include rem(font-size, $enews--font-size);
     margin-bottom: 16px;
 
     &[type="submit"] {

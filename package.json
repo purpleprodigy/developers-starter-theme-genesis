@@ -1,0 +1,21 @@
+{
+  "name": "developers",
+  "version": "1.0.0",
+  "description": "This is a developer-friendly starter child theme for the Genesis framework by Purple Prodigy. It includes a modular architectures, Sass, gulp, bourbon, neat and Composer. It is the starting child theme for all projects.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/rosecox/developers-starter-theme-genesis.git"
+  },
+  "author": "Purple Prodigy",
+  "license": "GPL",
+  "homepage": "https://bitbucket.org/rosecox/developers-starter-theme-genesis#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2"
+  }
+}
