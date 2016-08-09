@@ -1,6 +1,6 @@
 <?php
 /**
- * Description
+ * Set up the theme.
  *
  * @package     PurpleProdigy\Developers
  * @since       1.0.0
@@ -19,11 +19,23 @@ add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
  * @return void
  */
 function setup_child_theme() {
-
 	load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
+
+	unregister_genesis_callbacks();
 
 	add_theme_supports();
 	adds_new_image_sizes();
+}
+
+/**
+ * Unregister Genesis callbacks.  We do this here because the child theme loads before Genesis.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function unregister_genesis_callbacks() {
+	unregister_menu_callbacks();
 }
 
 /**
@@ -88,11 +100,11 @@ function adds_new_image_sizes () {
 
 add_filter( 'genesis_theme_settings_defaults', __NAMESPACE__ . '\set_theme_settings_defaults' );
 /**
- * Set theme settings defaults
+ * Set the theme settings defaults.
  *
  * @since 1.0.0
  *
- * @param $defaults
+ * @param array $defaults
  *
  * @return array
  */
@@ -104,7 +116,7 @@ function set_theme_settings_defaults( array $defaults) {
 }
 add_action( 'after_switch_theme', __NAMESPACE__ . '\update_theme_setting_defaults' );
 /**
- * Sets the theme setting defaults.
+ * Update the theme settings defaults.
  *
  * @since 1.0.0
  *

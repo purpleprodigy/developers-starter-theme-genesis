@@ -2,7 +2,7 @@
 /**
  * Autoload files.
  *
- * @package     PurpleProdigy\Developers\Functions
+ * @package     PurpleProdigy\Developers
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        http://www.purpleprodigy.com
@@ -64,10 +64,8 @@ function load_admin_files() {
  */
 function load_specified_files( array $filenames, $folder_root = '' ) {
 	$folder_root = $folder_root ?: CHILD_THEME_DIR . '/lib/';
-
 	foreach( $filenames as $filename ) {
 		include( $folder_root . $filename );
 	}
 }
-
 load_nonadmin_files();

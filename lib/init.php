@@ -11,7 +11,7 @@
 namespace PurpleProdigy\Developers;
 
 /**
- * Initialize the theme's constants.
+ * Initialize the themes constants.
  *
  * @since 1.0.0
  *

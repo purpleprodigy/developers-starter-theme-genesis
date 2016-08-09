@@ -1,6 +1,6 @@
 <?php
 /**
- * Description
+ * Archive HTML markup structure
  *
  * @package     PurpleProdigy\Developers
  * @since       1.0.0
@@ -10,10 +10,13 @@
  */
 namespace PurpleProdigy\Developers;
 
-include_once( 'lib/init.php' );
+/**
+ * Unregister archive callbacks.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function unregister_archive_callbacks() {
 
-include_once( 'lib/functions/autoload.php' );
-
-//* Start the Genesis framework
-include_once( get_template_directory() . '/lib/init.php' );
-
+}

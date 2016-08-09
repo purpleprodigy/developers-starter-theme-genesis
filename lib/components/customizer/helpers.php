@@ -2,7 +2,7 @@
 /**
  * Customizer helpers.
  *
- * @package     PurpleProdigy\Developers
+ * @package     PurpleProdigy\Developers\Customizer
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        http://www.purpleprodigy.com
