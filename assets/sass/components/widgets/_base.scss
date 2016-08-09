@@ -36,8 +36,10 @@
 }
 
   @include media( $breakpoint__screen-size--small ) {
-  padding: 30px;
-  margin-bottom: 5%;
-}
+    .sidebar .widget {
+      padding: 30px;
+      margin-bottom: 5%;
+    }
+  }
 
 
