@@ -26,6 +26,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-sass-lint": "^1.2.0",
     "gulp-sourcemaps": "^1.6.0",
-    "sass-rem": "^1.2.2"
+    "sass-rem": "^1.2.2",
+    "gulp-util": "^3.0.7"
   }
 }

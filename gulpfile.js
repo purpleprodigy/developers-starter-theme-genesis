@@ -17,8 +17,6 @@ var gulp = require( 'gulp' ),
 	notify = require( 'gulp-notify' ),
 	plumber = require( 'gulp-plumber' );
 
-
-
 /*****************
  * Utilities
  *****************/
