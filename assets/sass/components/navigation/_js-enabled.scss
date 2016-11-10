@@ -2,7 +2,7 @@
 // .js enabled styles
 //======================================
 
-  @include media( $breakpoint__screen-size--medium ) {
+@include media( $breakpoint__screen-size--medium ) {
   .js {
     .genesis-nav-menu {
       .sub-menu, .sub-menu a {
@@ -39,13 +39,13 @@
       }
     }
 
-    nav.nav-primary,
+    nav.nav-primary, nav.nav-secondary,
     .site-header nav {
       display: none;
       position: relative;
     }
 
-    .nav-primary, .site-header {
+    .nav-primary, .nav-secondary, .site-header {
       .genesis-nav-menu .menu-item {
         display: block;
         float: none;
@@ -63,6 +63,7 @@
     nav button:hover,
     .menu-toggle:hover,
     .nav-primary,
+    .nav-secondary,
     nav button:focus,
     .menu-toggle:focus {
       background-color: $js-nav--background-color;
@@ -70,7 +71,8 @@
     }
     nav button:hover,
     .menu-toggle:hover,
-    .nav-primary {
+    .nav-primary,
+    .nav-secondary{
       color: $js-nav--hover-color;
     }
     nav button:focus,
