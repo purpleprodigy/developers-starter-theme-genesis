@@ -10,7 +10,7 @@
  */
 namespace PurpleProdigy\Developers;
 
-add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
+add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme', 15 );
 /**
  * Setup child theme.
  *
@@ -20,11 +20,33 @@ add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
  */
 function setup_child_theme() {
 	load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
-
+	unregister_layouts();
 	unregister_genesis_callbacks();
-
+	//unregister_sidebar( 'sidebar' );
+	//unregister_sidebar( 'sidebar-alt' );
 	add_theme_supports();
 	adds_new_image_sizes();
+}
+/**
+ * Unregister the Genesis Layouts.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function unregister_layouts() {
+	$layouts = array(
+		'sidebar-content',
+		'content-sidebar',
+		'content-sidebar-sidebar',
+		'sidebar-content-sidebar',
+		'sidebar-sidebar-content',
+	);
+	foreach( $layouts  as $layout ) {
+		genesis_unregister_layout( $layout );
+	}
+	// temporary fix for Genesis bug 06.22.2016
+	genesis_set_default_layout( 'full-width-content' );
 }
 
 /**
@@ -65,8 +87,8 @@ function add_theme_supports () {
 			'flex-height'     => true,
 		),
 		'custom-background' => null,
-		'genesis-after-entry-widget-area' => null,
-		'genesis-footer-widgets' => 3,
+		//'genesis-after-entry-widget-area' => null,
+		//'genesis-footer-widgets' => 3,
 		'genesis-menus' => array(
 			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
 			'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
