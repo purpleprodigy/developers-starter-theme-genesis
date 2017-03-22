@@ -33,6 +33,7 @@ function load_nonadmin_files() {
 		'structure/menu.php',
 		'structure/post.php',
 //		'structure/sidebar.php',
+		'components/customizer/customizer.php',
 	);
 	load_specified_files( $filenames );
 }
@@ -47,7 +48,7 @@ add_action( 'admin_init' , __NAMESPACE__ . '\load_admin_files' );
  */
 function load_admin_files() {
 	$filenames = array(
-		'components/customizer/customizer.php',
+
 	);
 
 	load_specified_files( $filenames );

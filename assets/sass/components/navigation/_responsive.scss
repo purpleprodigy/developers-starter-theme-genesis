@@ -46,7 +46,6 @@
     }
     &:before {
       display: inline-block;
-      text-rendering: auto;
       @include transform(translate(0, 0));
     }
 
