@@ -2,13 +2,13 @@
 /**
  * Add the CSS from the Customizer options.
  *
- * @package     PurpleProdigy\Developers
+ * @package     HealthyWealthyWise
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        https://www.purpleprodigy.com
  * @licence     GNU General Public License 2.0+
  */
-namespace PurpleProdigy\Developers\Customizer;
+namespace HealthyWealthyWise\Customizer;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\build_inline_css_from_customizer_settings' );
 /**

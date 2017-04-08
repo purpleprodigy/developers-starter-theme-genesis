@@ -2,13 +2,13 @@
 /**
  * Autoload files.
  *
- * @package     PurpleProdigy\Developers
+ * @package     HealthyWealthyWise
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        https://www.purpleprodigy.com
  * @licence     GNU General Public License 2.0+
  */
-namespace PurpleProdigy\Developers;
+namespace HealthyWealthyWise;
 
 /**
  * Loads nonadmin files.
@@ -28,7 +28,7 @@ function load_nonadmin_files() {
 //		'functions/markup.php',
 //		'structure/archive.php',
 		'structure/comments.php',
-//		'structure/footer.php',
+		'structure/footer.php',
 //		'structure/header.php',
 		'structure/menu.php',
 		'structure/post.php',

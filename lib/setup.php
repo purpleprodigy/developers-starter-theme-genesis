@@ -2,13 +2,13 @@
 /**
  * Set up the theme.
  *
- * @package     PurpleProdigy\Developers
+ * @package     HealthyWealthyWise
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        https://www.purpleprodigy.com
  * @licence     GNU General Public License 2.0+
  */
-namespace PurpleProdigy\Developers;
+namespace HealthyWealthyWise;
 
 add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme', 15 );
 /**
@@ -22,8 +22,8 @@ function setup_child_theme() {
 	load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
 	unregister_layouts();
 	unregister_genesis_callbacks();
-	//unregister_sidebar( 'sidebar' );
-	//unregister_sidebar( 'sidebar-alt' );
+	unregister_sidebar( 'sidebar' );
+	unregister_sidebar( 'sidebar-alt' );
 	add_theme_supports();
 	adds_new_image_sizes();
 }
