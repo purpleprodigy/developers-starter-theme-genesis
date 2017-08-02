@@ -26,8 +26,8 @@ This child theme requires the following dependencies:
 To install this repository, do the following:
 
 1. Open up terminal and navigate to the wp-content/themes folder.
-2. Type: git clone https://github.com/purpleprodigy/developers-starter-theme-genesis
-3. Navigate to the theme folder and type npm install.
+2. Type 'git clone https://github.com/purpleprodigy/developers-starter-theme-genesis'
+3. Navigate to the theme folder and type 'npm install'.
 
 # Contributors
 
